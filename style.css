@@ -1,0 +1,118 @@
+.frame{
+	position: relative;
+	max-width: 800px;
+	max-height: 800px;
+	left:0px;
+	right:0px;
+	background: url(background.jpg);
+}
+.logo-rs{
+	position: absolute;
+	width: 87px;
+	height: 66px;
+	left: 1550px;
+	top: 10px;
+	background-image: linear-gradient(#EE5E4F 50%, #EE5E4F 50%), linear-gradient(silver 50%, silver 50%);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 0 .063em, 100% .063em;
+	color: #607584;
+	padding-bottom: .188em;
+	transition: background-size .5s;
+}
+.logo-rs:hover{
+	background-size: 100% .063em, 100% .063em;
+	background-position: left bottom;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.logo-epam{
+	position: absolute;
+	width: 179px;
+	height: 67px;
+	left: 1300px;
+	top: 10px;
+	background-image: linear-gradient(#EE5E4F 50%, #EE5E4F 50%), linear-gradient(silver 50%, silver 50%);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 0 .063em, 100% .063em;
+	color: #607584;
+	padding-bottom: .188em;
+	transition: background-size .5s;
+}
+.logo-epam:hover{
+	background-size: 100% .063em, 100% .063em;
+	background-position: left bottom;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.myphoto{
+	position: absolute;
+	width: 200px;
+	height: 250px;
+	left: 47px;
+	top: 150px;
+	background: url(myphoto.jpg);
+	border-radius: 81px;
+}
+.anketa{
+	color:white;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 64px;
+	position: absolute;
+	width: 1500px;
+	height: 306px;
+	left: 303px;
+	top: 200px;
+}
+.vk{
+	color:white;
+}
+.rectangle{
+	position: absolute;
+	width: 1886px;
+	height: 115px;
+	left: -14px;
+	top: -14px;
+
+	background: rgba(101, 88, 111, 0.6);
+}
+.Git-logo{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 50px;
+	top: 450px;
+	background-size: 0 .063em, 100% .063em;
+	color: #607584;
+	padding-bottom: .188em;
+	transition: background-size .5s;	
+}
+.Git-logo:hover{
+	background-size: 100% .063em, 100% .063em;
+	background-position: left bottom;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.discord-logo{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	left: 250px;
+	top: 450px;
+	background-size: 0 .063em, 100% .063em;
+	color: #607584;
+	padding-bottom: .188em;
+	transition: background-size .5s;	
+}
+.discord-logo:hover{
+	background-size: 100% .063em, 100% .063em;
+	background-position: left bottom;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);	
